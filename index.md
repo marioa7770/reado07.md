@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+The reading was about Javascript's expressions and operators. Javascript has the following operators
+- assignment operators
+- comparison operators
+- arithmetic operators
+- bitwise operators
+- logical operators
+- string operators
+- conditional ( ternary) operators
+- comma operator
+- unary operator
+- relational operator
 
-You can use the [editor on GitHub](https://github.com/marioa7770/reado07.md/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+One really cool feature I like is the  the concatenation operator (+) it joins 2 strings together, returning another string that is the union of two strings for example
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+console.log('mario' + 'acevedo'); will log "mario acevedo"
 
-### Markdown
+I also learned about "functions". Functions are pretty much a set of statements that performs a task or calculates a value.
+Control flow on a computer is the order in which the computer executes statements in a script. Code is run from the first line to the last line unless the computer comes across conditionals or loops these structures change the control flow, for example
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marioa7770/reado07.md/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+if (field==empty) {
+    promptUser();
+} else {
+    submitForm();
+}
+Here we use if an else statements, you can see how the code works, the control flow starts from the firstline of code and then iterates checking every line of code until and looks at the if and else functions
